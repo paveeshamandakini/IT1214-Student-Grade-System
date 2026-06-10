@@ -65,7 +65,8 @@ public class StudentManagementSystem {
                     break;
 
                 case 4:
-                    if (students.size() == 0) {
+				//Calculate average marks 
+				                    if (students.size() == 0) {
                         System.out.println("No students available.");
                     } else {
                         double total = 0;
