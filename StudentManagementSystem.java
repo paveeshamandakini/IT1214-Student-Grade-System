@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class StudentManagementSystem {
-
+//Main class for Student Grade Management System
     public static void main(String[] args) {
 
         ArrayList<Student> students = new ArrayList<>();
@@ -85,7 +85,8 @@ public class StudentManagementSystem {
                     System.out.println("Exiting program...");
                     input.close();
                     System.exit(0);
-
+					//Program terminated 
+					break;
                 default:
                     System.out.println("Invalid choice.");
             }
